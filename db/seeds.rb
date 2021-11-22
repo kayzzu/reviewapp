@@ -3,5 +3,21 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+airlines = Airline.create([
+  {
+  name: "Airline 1",
+  image_url: "https://open-flights.s3.amazonaws.com/United-Airlines.png"
+  },
+  {
+  name: "Airline 2",
+  image_url: "https://open-flights.s3.amazonaws.com/American-Airlines.png"
+  },
+  {
+  name: "Airline 3",
+  image_url: "https://open-flights.s3.amazonaws.com/Alaska-Airlines.png"
+  },
+  {
+  name: "Airline 4",
+  image_url: "https://open-flights.s3.amazonaws.com/JetBlue.png"
+  }
+])
